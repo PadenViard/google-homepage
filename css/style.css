@@ -96,9 +96,19 @@ img {
     margin: 3px;
     padding: 9px;
     border-radius: 3px;
-    border: solid whitesmoke;
+    border: 1px solid whitesmoke;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.button1:hover {
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+
+.button2:hover {
+    cursor: pointer;
+    border: 1px solid lightgray;
 }
 
 #circle_image {
