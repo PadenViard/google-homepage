@@ -1,0 +1,98 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-top: 1px solid gainsboro;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97.5%;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+main {
+    position: relative;
+    top: 11em;
+    width: 100%;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    position: relative;
+    top: 2em;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search_bar {
+    top: 3em;
+    position: relative;
+    padding: 15px;
+    width: 525px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button_box {
+    position: relative;
+    top: 5em;
+    display: flex;
+    flex-direction: row;
+    width: 37.5%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.google_button {
+    position: relative;
+    background: whitesmoke;
+    margin: 3px;
+    padding: 9px;
+    border-radius: 3px;
+    border: solid whitesmoke;
+    margin-left: 5px;
+    margin-right: 5px;
+}
