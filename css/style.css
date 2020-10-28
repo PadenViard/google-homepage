@@ -23,10 +23,14 @@ footer {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 97.5%;
+}
+
+.footer_ul {
+    padding: 0;
 }
 
 li {
@@ -95,4 +99,21 @@ img {
     border: solid whitesmoke;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+#circle_image {
+    border-radius: 100%;
+    background-color: lightgray;
+    padding: 8px;
+    margin-top: 2px;;
+    margin-bottom: auto;
+}
+
+#circle_image:hover {
+    cursor: pointer;
+}
+
+.li_hover:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
